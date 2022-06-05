@@ -1,0 +1,65 @@
+nav {
+  padding: 0px 24px;
+  max-width: 1300px;
+  margin: auto;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+  border-bottom: 1px solid #4d618e;
+}
+.logo {
+  padding: 11px 0px;
+}
+.login_btn {
+  color: #fff;
+  background: #43afff33 0% 0% no-repeat padding-box;
+  border: 1px solid #43afff;
+  border-radius: 5px;
+  padding: 14px 23px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.profile {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 4px;
+}
+.name_circle {
+  height: 44px;
+  width: 44px;
+  border-radius: 25px;
+  background-color: #d9efff;
+  font-size: 18px;
+  color: #303f60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.logout_hover {
+  position: absolute;
+  background-color: #fff;
+  width: 112px;
+  padding: 12px;
+  border-radius: 5px;
+  bottom: -42px;
+  right: 0px;
+  cursor: default;
+}
+.logout_hover > span {
+  cursor: pointer;
+}
+.arrow {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #fff;
+  top: 0px;
+  right: 12px;
+  transform: rotate(45deg);
+  margin-top: -6px;
+}

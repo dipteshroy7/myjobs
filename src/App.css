@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1100px;
+  padding: 0px 24px;
+  margin: auto;
+}
+.dark_section {
+  background: transparent linear-gradient(248deg, #303f60 0%, #1a253c 100%) 0% 0% no-repeat padding-box;
+}
+.light_section {
+  background-color: #edf6ff;
+}
+.blue_ {
+  color: #43afff;
+}
+.blue_btn {
+  color: #fff;
+  background-color: #43afff;
+  border: 1px solid #43afff;
+  border-radius: 5px;
+  padding: 14px 23px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+/* overriding toastify position */
+.Toastify__progress-bar-theme--light {
+  background: #43afff !important;
+}
+.Toastify__toast-container--top-right {
+  top: 5em !important;
+}
+@media (min-width: 1300px) {
+  .Toastify__toast-container--top-right {
+    right: calc((100vw - 1300px) / 2) !important;
+  }
+}
+@media (max-width: 1299px) {
+  .Toastify__toast-container--top-right {
+    right: 24px !important;
+  }
+}
