@@ -1,0 +1,6 @@
+.dark_login {
+  height: 362px;
+}
+.light_login {
+  min-height: calc(100vh - 362px);
+}

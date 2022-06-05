@@ -1,0 +1,24 @@
+.why_card {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #557da526;
+  border-radius: 5px;
+  width: 300px;
+  padding: 24px 20px 30px 20px;
+}
+.why_title {
+  width: 170px;
+  font-size: 22px;
+  color: #43afff;
+  padding-bottom: 30px;
+}
+.txt {
+  font-size: 14px;
+  color: #303f60;
+}
+.why_card:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 9px 13px rgb(13 38 76 / 20%);
+  box-shadow: 0 9px 13px rgb(13 38 76 / 20%);
+}
