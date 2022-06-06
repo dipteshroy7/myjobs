@@ -3,10 +3,7 @@ import "./Login.css";
 
 import { Navbar, LoginModal } from "../../components";
 
-// import { MainContext } from "../../contexts/MainContext";
-
 function Login() {
-  // const { user, setUser } = useContext(MainContext);
 
   return (
     <div className="App">

@@ -1,0 +1,70 @@
+.card {
+  width: 230px;
+  height: 132px;
+  padding: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #557da526;
+  color: #303f60;
+  border-radius: 5px;
+  margin: 0px 9px;
+  margin-bottom: 45px;
+}
+.card:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 9px 13px rgb(13 38 76 / 20%);
+  box-shadow: 0 9px 13px rgb(13 38 76 / 20%);
+}
+.card_heading {
+  font-size: 17px;
+  height: 20px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+}
+.card_body {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-word;
+  height: 48px;
+  margin-bottom: 22px;
+}
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.card_footer .location {
+  width: 105px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card_footer .location > div {
+  width: 83px;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card_footer img {
+  margin-right: 10px;
+}
+.card_footer > button {
+  width: 125px;
+  border-radius: 5px;
+  background-color: #43afff33;
+  padding: 9px 15px;
+  font-size: 12px;
+  border: 0px;
+}
+.card_footer > button:hover {
+    box-shadow: 0px 3px 6px #557da58c;
+}

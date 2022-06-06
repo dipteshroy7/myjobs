@@ -36,14 +36,11 @@ function Navbar({ type }) {
                   setUser(null);
                   toast("You have successfully logged out.");
                 }}
-                onMouseMove={() => setShowLogout(true)}
                 style={{ display: showLogout ? "block" : "none" }}
               >
-                {/* <Link to="/">
-                <span onMouseEnter={() => setShowLogout(true)}>Logout</span>
-              </Link> */}
                 Logout
                 <div className="arrow"></div>
+                <div className="shield"></div>
               </div>
             </Link>
           </div>

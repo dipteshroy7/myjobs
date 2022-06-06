@@ -5,11 +5,19 @@ import { toast } from "react-toastify";
 import { MainContext } from "../../contexts/MainContext";
 
 function LoginModal() {
-  const { setUser } = useContext(MainContext);
+  const { setUser, setSpin } = useContext(MainContext);
 
   function handleLogin(e) {
     e.preventDefault();
-    let data = { email: "squareboat@gmail.com", password: "squareboat" };
+    // let data = { email: "squareboat@gmail.com", password: "squareboat" };
+    // let data = { email: "sb@gmail.com", password: "squareboat" };
+
+    let user_email = document.getElementById("input_email").value;
+    let user_pass = document.getElementById("input_pass").value;
+
+    let data = { email: user_email, password: user_pass };
+
+    setSpin(true);
 
     let requestOptions = {
       method: "POST",
@@ -21,17 +29,19 @@ function LoginModal() {
     fetch("https://jobs-api.squareboat.info/api/v1/auth/login", requestOptions)
       .then((response) => response.json())
       .then(({ data, success }) => {
-        console.log(data);
-        console.log(success);
         if (success === false) {
           document.querySelector(".unsuccessfull_txt").style.display = "block";
         } else {
           document.querySelector(".unsuccessfull_txt").style.display = "none";
           setUser(data);
-          toast("You have successfully logged in.")
+          toast("You have successfully logged in.");
         }
+        setSpin(false);
       })
-      .catch((error) => console.log("error", error));
+      .catch((error) => {
+        setSpin(false);
+        console.log("error", error);
+      });
   }
 
   return (
@@ -39,9 +49,9 @@ function LoginModal() {
       <form onSubmit={handleLogin}>
         <div className="heading">Login</div>
         <div className="title">Email address</div>
-        <input className="input_field" type="email" placeholder="Enter your password" required />
+        <input id="input_email" className="input_field" type="email" placeholder="Enter your email" required />
         <div className="title">Password</div>
-        <input className="input_field" type="password" placeholder="Enter your password" required />
+        <input id="input_pass" className="input_field" type="password" placeholder="Enter your password" required />
         <button type="submit" className="blue_btn">
           Login
         </button>

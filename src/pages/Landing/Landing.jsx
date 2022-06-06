@@ -67,8 +67,8 @@ function Landing() {
           <section className="companies">
             <div className="section_title">Companies Who Trust Us</div>
             <div className="company_images">
-              {companyImages.map((img) => (
-                <div className="image_container">
+              {companyImages.map((img, i) => (
+                <div key={i + img} className="image_container">
                   <img key={img} src={img} alt="" />
                 </div>
               ))}

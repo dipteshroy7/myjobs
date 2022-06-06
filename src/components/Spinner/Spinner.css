@@ -1,0 +1,23 @@
+.spinner_background {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1001;
+}
+.spinner_container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: transparent linear-gradient(232deg, #303f60 0%, #1a253c 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+  z-index: 1002;
+}
+.spinner {
+  position: absolute;
+  top: calc(100vh / 2 - 50px);
+  left: calc(100vw / 2 - 50px);
+  width: 100px;
+  height: 100px;
+  z-index: 1002;
+}

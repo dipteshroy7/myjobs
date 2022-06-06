@@ -46,14 +46,10 @@ nav {
   width: 112px;
   padding: 12px;
   border-radius: 5px;
-  bottom: -42px;
+  bottom: -40px;
   right: 0px;
-  cursor: default;
-}
-.logout_hover > span {
   font-size: 14px;
   color: #303F60;
-  cursor: pointer;
 }
 .arrow {
   width: 12px;
@@ -64,4 +60,13 @@ nav {
   right: 12px;
   transform: rotate(45deg);
   margin-top: -6px;
+}
+.shield {
+  width: 100px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff00;
+  top: 0px;
+  left: 5px;
+  z-index: 2;
 }
