@@ -50,4 +50,40 @@
   height: 0px;
   padding: 0px;
   width: 260px;
+  margin: 0px 9px;
+}
+.pagination {
+  padding: 600px 0px 70px 0px;
+  display: flex;
+  justify-content: center;
+}
+.pagination > * {
+  margin: 0px 4px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+.pagination > img.active {
+  cursor: pointer;
+}
+.page_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43afff33;
+  font-size: 14px;
+}
+.dtext {
+  font-size: 20px;
+  color: #303f60;
+  margin-top: 20px;
+}
+.empty_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty_page > img {
+  margin-top: 10px;
 }

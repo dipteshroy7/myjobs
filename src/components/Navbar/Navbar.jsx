@@ -26,22 +26,26 @@ function Navbar({ type }) {
           </Link>
         )}
         {type === "home" && (
-          <div className="profile" onMouseEnter={() => setShowLogout(true)} onMouseLeave={() => setShowLogout(false)}>
+          <div className="profile" onMouseMove={() => setShowLogout(true)} onMouseLeave={() => setShowLogout(false)}>
             <div className="name_circle">{user.name.toUpperCase().charAt(0)}</div>
             <img src={down} alt="" />
-            <div
-              className="logout_hover"
-              onClick={() => {
-                setUser(null);
-                toast("You have successfully logged out.");
-              }}
-              style={{ display: showLogout ? "block" : "none" }}
-            >
-              <Link to="/">
-                <span>Logout</span>
-              </Link>
-              <div className="arrow"></div>
-            </div>
+            <Link to="/">
+              <div
+                className="logout_hover"
+                onClick={() => {
+                  setUser(null);
+                  toast("You have successfully logged out.");
+                }}
+                onMouseMove={() => setShowLogout(true)}
+                style={{ display: showLogout ? "block" : "none" }}
+              >
+                {/* <Link to="/">
+                <span onMouseEnter={() => setShowLogout(true)}>Logout</span>
+              </Link> */}
+                Logout
+                <div className="arrow"></div>
+              </div>
+            </Link>
           </div>
         )}
       </div>

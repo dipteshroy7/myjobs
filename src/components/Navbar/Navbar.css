@@ -51,6 +51,8 @@ nav {
   cursor: default;
 }
 .logout_hover > span {
+  font-size: 14px;
+  color: #303F60;
   cursor: pointer;
 }
 .arrow {

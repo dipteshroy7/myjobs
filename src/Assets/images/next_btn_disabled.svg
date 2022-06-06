@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="30" height="30" viewBox="0 0 1000 1000" xml:space="preserve">
-    <g transform="matrix(-32.8972 0 0 -33.0254 498.4589 497.6906)" id="526074">
+    <g transform="matrix(-33.0254 0 0 -33.1024 498.8453 498.8451)" id="453568">
         <g style="" vector-effect="non-scaling-stroke">
             <g transform="matrix(1 0 0 1 0 0)" id="Rectangle_205">
                 <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: none; fill-rule: nonzero; opacity: 0.5;" x="-15" y="-15" rx="5" ry="5" width="30" height="30"/>
@@ -7,8 +7,8 @@
             <g transform="matrix(1 0 0 1 0 0)" id="Rectangle_205">
                 <rect style="stroke: rgb(48,63,96); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: none; fill-rule: nonzero; opacity: 0.5;" x="-14.5" y="-14.5" rx="4.5" ry="4.5" width="29" height="29"/>
             </g>
-            <g transform="matrix(0 -1 1 0 0.7582 0.122)" id="Icon_awesome-caret-down">
-                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(122,131,154); fill-rule: nonzero; opacity: 1;" transform=" translate(-5.9191, -16.2582)" d="M 1.484 13.5 h 8.868 a 0.65 0.65 0 0 1 0.486 1.116 L 6.406 18.826 a 0.717 0.717 0 0 1 -0.975 0 L 1 14.616 A 0.65 0.65 0 0 1 1.484 13.5 Z" stroke-linecap="round"/>
+            <g transform="matrix(0 1 -1 0 -0.2402 0.125)" id="Icon_awesome-caret-down">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(122,131,154); fill-rule: nonzero; opacity: 0.5;" transform=" translate(-5.9191, -16.2582)" d="M 1.484 13.5 h 8.868 a 0.65 0.65 0 0 1 0.486 1.116 L 6.406 18.826 a 0.717 0.717 0 0 1 -0.975 0 L 1 14.616 A 0.65 0.65 0 0 1 1.484 13.5 Z" stroke-linecap="round"/>
             </g>
         </g>
     </g>
