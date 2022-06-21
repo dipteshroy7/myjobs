@@ -49,9 +49,9 @@ function LoginModal() {
       <form onSubmit={handleLogin}>
         <div className="heading">Login</div>
         <div className="title">Email address</div>
-        <input id="input_email" className="input_field" type="email" placeholder="Enter your email" required />
+        <input id="input_email" className="input_field" type="email" value="squareboat@gmail.com" placeholder="Enter your email" required />
         <div className="title">Password</div>
-        <input id="input_pass" className="input_field" type="password" placeholder="Enter your password" required />
+        <input id="input_pass" className="input_field" type="password" value="squareboat" placeholder="Enter your password" required />
         <button type="submit" className="blue_btn">
           Login
         </button>
